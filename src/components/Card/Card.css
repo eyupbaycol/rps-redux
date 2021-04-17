@@ -1,0 +1,26 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.imageContainer {
+    width: 150px;
+    height: 150px;
+    /* background-color: gray; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 6px 6px 18px -1px rgba(0,0,0,0.56);
+}
+.imageContainer:hover {
+    background-color: lightgreen;
+}
+.imageContainer:active {
+        box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+}
